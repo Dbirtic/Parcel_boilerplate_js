@@ -1,0 +1,26 @@
+{
+  "name": "parcel_boilerplate_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dbirtic/Parcel_boilerplate_js.git"
+  },
+  "author": "Dbirtic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dbirtic/Parcel_boilerplate_js/issues"
+  },
+  "homepage": "https://github.com/Dbirtic/Parcel_boilerplate_js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/runtime-corejs2": "^7.13.17",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.11"
+  }
+}
