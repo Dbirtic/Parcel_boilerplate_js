@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/app.js"],"names":["console","log"],"mappings":";;;AAEA,aAFA,QAAA,mBAEAA,QAAQC,IAAI","file":"app.95c24507.js","sourceRoot":"..\\public","sourcesContent":["import './scss/app.scss';\r\n\r\nconsole.log(123);"]}
