@@ -1,9 +1,16 @@
-import './scss/app.scss';
-import header from './components/header'
+import Header from './components/Header'
+import User from './components/User'
 
-const app = () => {
-    document.getElementById('header').innerHTML = header();
+async function App() {
+  const template = document.createElement('template')
+  template.innerHTML = `
+    <div class="container">
+      ${Header()}
+      ${await User()}
+    </div>
+  `
+  // Return a new node from template
+  return template.content.cloneNode(true)
 }
 
-// Init app
-app();
+export default App;

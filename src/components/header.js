@@ -1,4 +1,4 @@
-const header = () => {
+const Header = () => {
     const template = `
         <header>
             <h1>My Parcel App</h1>
@@ -8,4 +8,4 @@ const header = () => {
     return template;
 }
 
-export default header;
+export default Header;
